@@ -1,14 +1,14 @@
 {
-  "name": "xe-rates",
+  "name": "exchange-rates",
   "version": "0.0.1",
-  "description": "Get exchange rates from xe.com",
+  "description": "Get historical exchange rates.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lesh1k/xe-rates.git"
+    "url": "git+ssh://git@github.com/lesh1k/exchange-rates.git"
   },
   "keywords": [
     "exchange",
@@ -18,7 +18,19 @@
   "author": "Alexei Dvorac",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lesh1k/xe-rates/issues"
+    "url": "https://github.com/lesh1k/exchange-rates/issues"
   },
-  "homepage": "https://github.com/lesh1k/xe-rates#readme"
+  "homepage": "https://github.com/lesh1k/exchange-rates#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
 }
